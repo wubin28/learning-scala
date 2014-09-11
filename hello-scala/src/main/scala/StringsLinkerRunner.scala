@@ -3,6 +3,11 @@
  */
 object StringsLinkerRunner {
   def main(args: Array[String]): Unit = {
-    println("Hello, world.");
+    var bjdp = Array("Beijing", "Design", "Patterns", "Study", "Group")
+    var i = 0
+    while (i < bjdp.length) {
+      print(bjdp(i))
+      i += 1
+    }
   }
 }
