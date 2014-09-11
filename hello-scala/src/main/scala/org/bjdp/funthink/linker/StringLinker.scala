@@ -5,9 +5,6 @@ package org.bjdp.funthink.linker
  */
 class StringLinker() {
   def linkStrings(strings: Array[String]): String = {
-    var result = ""
-    for (string <- strings)
-      result += string
-    result
+    strings.mkString
   }
 }
