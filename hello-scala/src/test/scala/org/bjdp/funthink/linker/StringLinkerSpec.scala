@@ -7,8 +7,8 @@ import org.scalatest.{Matchers, FlatSpec}
  */
 class StringLinkerSpec extends FlatSpec with Matchers {
   "A StringLinker" should "link several strings into one string" in {
-    var stringLinker = new StringLinker()
-    var bjdp = Array("Beijing", "Design", "Patterns", "Study", "Group")
+    val stringLinker = new StringLinker()
+    val bjdp = Array("Beijing", "Design", "Patterns", "Study", "Group")
     stringLinker.linkStrings(bjdp) should be ("BeijingDesignPatternsStudyGroup")
   }
 }
