@@ -5,10 +5,10 @@ package org.bjdp.funthink.linker
  */
 object StringsLinkerRunner {
   def main(args: Array[String]): Unit = {
-    var bjdp = Array("Beijing", "Design", "Patterns", "Study", "Group")
+    val bjdp = Array("Beijing", "Design", "Patterns", "Study", "Group")
 
-    var linker = new StringLinker()
-    var result: String = linker.linkStrings(bjdp)
+    val linker = new StringLinker()
+    val result: String = linker.linkStrings(bjdp)
     print(result)
   }
 }
