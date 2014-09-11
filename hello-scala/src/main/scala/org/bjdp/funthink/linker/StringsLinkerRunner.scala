@@ -11,14 +11,4 @@ object StringsLinkerRunner {
     var result: String = linker.linkStrings(bjdp)
     print(result)
   }
-
-  def linkStrings(bjdp: Array[String]): String = {
-    var i = 0
-    var result = ""
-    while (i < bjdp.length) {
-      result += bjdp(i)
-      i += 1
-    }
-    result
-  }
 }
