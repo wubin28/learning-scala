@@ -6,7 +6,9 @@ package org.bjdp.funthink.linker
 object StringsLinkerRunner {
   def main(args: Array[String]): Unit = {
     var bjdp = Array("Beijing", "Design", "Patterns", "Study", "Group")
-    var result: String = linkStrings(bjdp)
+
+    var linker = new StringLinker()
+    var result: String = linker.linkStrings(bjdp)
     print(result)
   }
 
