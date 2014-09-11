@@ -41,8 +41,8 @@
       <file leaf-file-name="StringLinker.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/org/bjdp/funthink/linker/StringLinker.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42352942" vertical-offset="0" max-vertical-offset="340">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.31764707" vertical-offset="0" max-vertical-offset="340">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -763,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/bjdp/funthink/linker/StringLinker.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42352942" vertical-offset="0" max-vertical-offset="340">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.31764707" vertical-offset="0" max-vertical-offset="340">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>
